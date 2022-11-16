@@ -1,1 +1,2 @@
-# curriculo_ana
+# curriculo
+# https://anavicentine.github.io/curriculo/
