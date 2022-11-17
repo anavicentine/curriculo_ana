@@ -44,7 +44,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f9f8;
+  background-color: #000000;
 }
 
 .section-title {
@@ -52,17 +52,29 @@ section {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
-  font-size: 32px;
+.h2 {
+  font-size: 40px;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-bottom: 0;
-  color: #555;
+  color: #ceb3f8;
+  margin-left: 40%;
 }
 
 .section-title p {
   margin-bottom: 0;
 }
+
+.progress {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.letra {
+  margin-left: 10%;
+  color:#fff;
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -547,6 +559,7 @@ section {
 .services .icon-box {
   margin-bottom: 20px;
   text-align: center;
+  background-color: #ceb3f8;
 }
 
 .services .icon {
@@ -556,7 +569,7 @@ section {
 }
 
 .services .icon i {
-  color: #70b9b0;
+  color: #ceb3f8;
   font-size: 42px;
 }
 
@@ -573,7 +586,7 @@ section {
 }
 
 .services .icon-box:hover .title a {
-  color: #70b9b0;
+  color: #ceb3f8;
 }
 
 .services .description {
@@ -581,6 +594,15 @@ section {
   font-size: 14px;
 }
 
+  .progress {
+    background-color: #ffffff;
+  }
+
+  .progress-bar {
+    background-color: #ae86e2;
+  }
+
+  .
 /*--------------------------------------------------------------
 # Call To Action
 --------------------------------------------------------------*/
@@ -624,6 +646,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio {
   padding: 60px 0;
+  margin-top: 0%;
 }
 
 .portfolio #portfolio-flters {
@@ -650,7 +673,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #70b9b0;
+  background: #ae86e2;
   color: #fff;
 }
 
@@ -659,7 +682,7 @@ section {
 }
 
 .portfolio .portfolio-wrap {
-  background: #073839;
+  background: #ae86e2;
   overflow: hidden;
   min-height: 200px;
   position: relative;
@@ -732,7 +755,7 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #70b9b0;
+  border: 1px solid #ae86e2;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
