@@ -544,13 +544,26 @@ section {
 }
 
 .img-fluid {
-  margin-left: 60%;
+  margin-left: 15%;
   margin-right: 0%;
+  max-width: 70%;
+  height: auto;
+  align-items: center;
 }
 
-#about h2 {
+#about h1 {
   color: #000000;
+  width: 65%;
+  font-size: 200%;
 } 
+
+.section-title{
+  size: 59%;
+}
+
+.mim{
+  margin-top: 5%;
+}
 
 
 /*--------------------------------------------------------------
