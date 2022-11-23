@@ -81,7 +81,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #f6fafa;
+  background-color: #dedddf;
   min-height: 40px;
   margin-top: 80px;
 }
@@ -290,7 +290,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #86b9e2;
+  color: #ae86e2;
 }
 
 .navbar .dropdown:hover>ul {
@@ -378,13 +378,13 @@ section {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #073839;
+  color: ;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #70b9b0;
+  color: #ae86e2;
 }
 
 .navbar-mobile .getstarted,
@@ -535,7 +535,7 @@ section {
 .about ul i {
   font-size: 22px;
   padding-right: 4px;
-  color: #70b9b0;
+  color: #ae86e2;
   line-height: 0;
 }
 
@@ -652,8 +652,8 @@ section {
 }
 
 .call-to-action .cta-btn:hover {
-  background: #70b9b0;
-  border: 2px solid #70b9b0;
+  background: #ae86e2;
+  border: 2px solid #ae86e2;
 }
 
 /*--------------------------------------------------------------
@@ -736,7 +736,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info a i:hover {
-  color: #70b9b0;
+  color:  #ae86e2;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -774,7 +774,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #70b9b0;
+  background-color:  #ae86e2;
 }
 
 .portfolio-details .portfolio-info {
@@ -886,7 +886,7 @@ section {
   text-align: center;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 20px;
-  background: #fff;
+  background: #ae86e2;
 }
 
 .team .member img {
@@ -898,7 +898,7 @@ section {
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
-  font-size: 18px;
+  font-size: 18px;svg
 }
 
 .team .member span {
@@ -911,20 +911,21 @@ section {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
-  color: #aaaaaa;
+  color: #000000;
 }
+
 
 .team .member .social {
   margin-top: 15px;
 }
 
 .team .member .social a {
-  color: #92cac3;
+  color: #ffffff;
   transition: 0.3s;
 }
 
 .team .member .social a:hover {
-  color: #3c8b81;
+  color: #ffffff;
 }
 
 .team .member .social i {
@@ -1092,7 +1093,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #073839;
+  background: #000000;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
