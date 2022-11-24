@@ -814,11 +814,17 @@ section {
   padding: 0;
 }
 
+
+
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
+}
+
+.faq .la h2 {
+  color: #ceb3f8;
 }
 
 .faq .faq-list {
@@ -827,7 +833,7 @@ section {
 }
 
 .faq .faq-list li {
-  border-bottom: 1px solid #deefed;
+  border-bottom: 1px solid #ae86e2;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -835,13 +841,13 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: "Lato", sans-serif;
-  font-size: 18px;
+  font-family: chocolat;
+  font-size: 25px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #51a59b;
+  color: #ffffff;
   transition: 0.3s;
 }
 
@@ -855,6 +861,7 @@ section {
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 25px;
+  color: #777;
 }
 
 .faq .faq-list .icon-show {
@@ -862,11 +869,11 @@ section {
 }
 
 .faq .faq-list .collapsed {
-  color: #343a40;
+  color: #ffffff;
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #70b9b0;
+  color: #ffffff;
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -943,14 +950,22 @@ section {
   line-height: 1;
   font-weight: 500;
   letter-spacing: 1px;
-  color: #70b9b0;
+  color: #ae86e2;
+}
+
+.contact .iupe p {
+  color: #eee;
+}
+
+.contact .iupe h2 {
+  color: #eee;
 }
 
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Lato", sans-serif;
-  color: #888;
+  font-family: lemon;
+  color: rgb(255, 255, 255);
 }
 
 .contact .social-links {
@@ -963,28 +978,28 @@ section {
   justify-content: center;
   font-size: 16px;
   background: #fff;
-  color: #70b9b0;
+  color: #ae86e2;
   line-height: 0;
   margin-right: 4px;
   border-radius: 50%;
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #70b9b0;
+  border: 1px solid #ae86e2;
 }
 
 .contact .social-links a:hover {
-  background: #70b9b0;
+  background: #ae86e2;
   color: #fff;
 }
 
 .contact .info {
-  color: #777;
+  color: rgb(255, 255, 255);
 }
 
 .contact .info i {
   font-size: 32px;
-  color: #70b9b0;
+  color: #ae86e2;
   float: left;
   line-height: 1;
 }
@@ -998,7 +1013,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #ae86e2;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1011,7 +1026,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #ae86e2;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1031,7 +1046,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #ae86e2;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1045,7 +1060,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #70b9b0;
+  background: #ae86e2;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1053,7 +1068,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #92cac3;
+  background: #ae86e2;
 }
 
 @-webkit-keyframes animate-loading {
